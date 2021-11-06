@@ -1,7 +1,7 @@
-import React from "react";
+import Layout from "../../components/Layout";
 
-const index = () => {
-  return <div>my event</div>;
+const HomePage = () => {
+  return <Layout>my event</Layout>;
 };
 
-export default index;
+export default HomePage;
